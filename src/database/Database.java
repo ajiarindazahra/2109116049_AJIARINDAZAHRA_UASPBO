@@ -33,7 +33,6 @@ public abstract class Database implements DBint {
     public void setQuery(String sql) {
         this.query = sql;
     }
-    // override tu buat apa aku lupa, jujur logikanya dapat sie
 
     @Override
     public String getQuery() {
